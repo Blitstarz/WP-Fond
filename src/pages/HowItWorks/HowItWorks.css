@@ -1,0 +1,150 @@
+.how-it-works {
+    padding: 80px 20px;
+    background: #111;
+    color: white;
+    text-align: center;
+}
+
+.how-it-works h2 {
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+.steps {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+}
+@media (min-width: 768px) {
+    .steps {
+        justify-content: center;
+    }
+}
+
+.step {
+    background: #1a1a1a;
+    padding: 30px 20px;
+    border-radius: 12px;
+    border: 1px solid #2a2a2a;
+    transition: transform 0.3s ease;
+}
+
+.step:hover {
+    transform: translateY(-5px);
+}
+
+.step-number {
+    display: inline-block;
+    font-size: 1.5rem;
+    background: #e53935;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.step h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.step p {
+    color: #ccc;
+    font-size: 0.95rem;
+}
+
+/* 📱 Планшети */
+@media (max-width: 1024px) {
+    .how-it-works {
+        padding: 60px 16px;
+    }
+
+    .how-it-works h2 {
+        font-size: 1.8rem;
+    }
+
+    .step-number {
+        font-size: 1.4rem;
+        width: 36px;
+        height: 36px;
+        line-height: 36px;
+    }
+
+    .step h3 {
+        font-size: 1.1rem;
+    }
+
+    .step p {
+        font-size: 0.9rem;
+    }
+
+    .steps {
+        gap: 32px;
+    }
+}
+
+/* 📱 Телефони */
+/*@media (max-width: 768px) {*/
+/*    .how-it-works {*/
+/*        padding: 50px 14px;*/
+/*    }*/
+
+/*    .how-it-works h2 {*/
+/*        font-size: 1.6rem;*/
+/*        margin-bottom: 36px;*/
+/*    }*/
+
+/*    .step {*/
+/*        padding: 24px 16px;*/
+/*    }*/
+
+/*    .step-number {*/
+/*        font-size: 1.3rem;*/
+/*        width: 32px;*/
+/*        height: 32px;*/
+/*        line-height: 32px;*/
+/*    }*/
+
+/*    .step h3 {*/
+/*        font-size: 1rem;*/
+/*    }*/
+
+/*    .step p {*/
+/*        font-size: 0.85rem;*/
+/*    }*/
+/*}*/
+
+/* 📱 Маленькі телефони */
+@media (max-width: 380px) {
+    .how-it-works {
+        padding: 40px 12px;
+    }
+
+    .how-it-works h2 {
+        font-size: 1.4rem;
+    }
+
+    .step-number {
+        font-size: 1.1rem;
+        width: 28px;
+        height: 28px;
+        line-height: 28px;
+    }
+
+    .step h3 {
+        font-size: 0.95rem;
+    }
+
+    .step p {
+        font-size: 0.8rem;
+    }
+
+    .steps {
+        gap: 24px;
+    }
+}

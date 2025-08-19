@@ -1,0 +1,154 @@
+{
+  "hero": {
+    "title": "<0>m</0>Wallet – manage your portfolio easily",
+    "subtitle": "Start today with a <1>free demo</1><br />and take control of your finances",
+    "button": "START MANAGING"
+  },
+  "features": {
+    "list": [
+      {
+        "img": "/icons/graph.png",
+        "alt": "Analytics",
+        "title": "Analytics",
+        "desc": "All finances<br/>in one dashboard"
+      },
+      {
+        "img": "/icons/line.png",
+        "alt": "Investments",
+        "title": "Investments",
+        "desc": "Auto-tips<br/>and portfolio guidance"
+      },
+      {
+        "img": "/icons/lock.png",
+        "alt": "Security",
+        "title": "Security",
+        "desc": "Biometrics and<br/>bank-level encryption"
+      },
+      {
+        "img": "/icons/bell.png",
+        "alt": "Notifications",
+        "title": "Notifications",
+        "desc": "Spend control<br/>in one click"
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "steps": [
+      {
+        "title": "Sign up",
+        "desc": "Just 30 seconds — and you’re in."
+      },
+      {
+        "title": "Connect mBank",
+        "desc": "Secure and protected — via BankID or login."
+      },
+      {
+        "title": "Analytics & tips",
+        "desc": "Personalized advice based on your spending."
+      },
+      {
+        "title": "Save smarter",
+        "desc": "Real-time recommendations."
+      }
+    ]
+  },
+  "stats": {
+    "list": [
+      { "number": "23K+", "label": "Active users" },
+      { "number": "45K+", "label": "Connected accounts" },
+      { "number": "15K+", "label": "Investment portfolios" },
+      { "number": "225K+", "label": "Successful transactions" }
+    ],
+    "footnote": "*Data for 2025"
+  },
+
+
+  "testimonials": {
+    "title": "What people say about us",
+    "items": [
+      {
+        "text": "\"mWallet helped me see the real state of my budget\"",
+        "author": "Olena, 27"
+      },
+      {
+        "text": "“mWallet sets new standards for financial control”",
+        "author": "— FinTech Today"
+      },
+      {
+        "text": "\"Thanks to mWallet, I finally started saving every month effortlessly\"",
+        "author": "Maria, 31"
+      },
+      {
+        "text": "\"Simple analytics and reminders saved my budget from chaos\"",
+        "author": "Ihor, 34"
+      },
+      {
+        "text": "“The most convenient app for managing money — and this isn’t an ad”",
+        "author": "— BankingReview.pl"
+      },
+      {
+        "text": "\"mWallet taught me to better understand where my money goes each day\"",
+        "author": "Taras, 29"
+      }
+    ]
+  },
+
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "q": "What is mWallet?",
+        "a": "mWallet is a digital portfolio manager available in the mBank app. It allows you to manage your savings, investments, expenses, and subscriptions in one place. With mWallet, you gain a complete overview of your finances and can plan your budget effectively."
+      },
+      {
+        "q": "Is mWallet free?",
+        "a": "Yes. mWallet is completely free for mBank clients. You can use all features without any additional fees."
+      },
+      {
+        "q": "Is mWallet available only on mobile or also on desktop?",
+        "a": "mWallet is available both in the mobile app and in mBank's online banking. All your data is synchronized across devices in real time."
+      },
+      {
+        "q": "What features does mWallet offer?",
+        "a": "With mWallet you get:\n\n- an overview of all accounts and cards\n- real-time expense analytics\n- automatic expense categorization\n- reminders for bills and subscriptions\n- integration with investments and savings"
+      },
+      {
+        "q": "Can I add accounts from other banks to mWallet?",
+        "a": "Yes. mWallet supports connecting accounts from other Polish banks through open banking (PSD2). Simply add the external account and confirm access."
+      },
+      {
+        "q": "What data does mBank collect in mWallet?",
+        "a": "mWallet uses transaction data already available in your mBank account. If you add external accounts, their data is also processed — solely for display and financial analysis. All in accordance with GDPR requirements."
+      },
+      {
+        "q": "Can I create my own savings goals?",
+        "a": "Yes. In mWallet, you can set goals — for example, for a trip, a new laptop, or an emergency fund. The app will help you track your progress and remind you when to save more."
+      },
+      {
+        "q": "What happens to my data if I opt out of mWallet?",
+        "a": "You can deactivate mWallet at any time. Your data will no longer be shown in the app, and information from external accounts will be permanently deleted."
+      },
+      {
+        "q": "Is mWallet available for business clients?",
+        "a": "Currently, mWallet is designed for individual users. For businesses, mBank offers other analytical tools such as CompanyNet and mOrganizer Finansów."
+      }
+    ]
+  },
+
+  "footer": {
+    "features": "Features",
+    "howItWorks": "How it works",
+    "contacts": "Contacts",
+    "rights": "© 2025 mWallet. All rights reserved.",
+    "languageSelectorLabel": "other language versions",
+    "findUsOn": "find us on:",
+    "mobileApplication": "mobile application"
+
+  },
+
+  "stickyCTA": {
+    "startNow": "Start now"
+  }
+
+}

@@ -1,0 +1,92 @@
+.features {
+    background: #000;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 60px;
+    text-align: left;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.feature {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    max-width: 320px;
+}
+
+.feature img {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.feature h3 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+
+.feature p {
+    font-size: 1.3rem;
+    color: #CCCCCC;
+    font-weight: 400;
+    margin: 0;
+    max-width: 196px;
+}
+
+@media (max-width: 1024px) {
+    .features {
+        padding: 60px 40px;
+        justify-content: center;
+    }
+
+    .feature h3 {
+        font-size: 1.6rem;
+    }
+
+    .feature p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .features {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .feature {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .feature h3,
+    .feature p {
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 380px) {
+    .features {
+        padding: 32px 12px;
+        gap: 32px;
+    }
+
+    .feature img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .feature h3 {
+        font-size: 1.3rem;
+    }
+
+    .feature p {
+        font-size: 1rem;
+    }
+}

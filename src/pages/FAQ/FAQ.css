@@ -1,0 +1,117 @@
+.faq {
+    background: #111;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.faq-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.faq-list {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.faq-item {
+    background: #000;
+    margin-bottom: 12px;
+    padding: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.faq-item:hover {
+    background: #1a1a1a;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.faq-answer {
+    margin-top: 10px;
+    font-size: 0.95rem;
+    color: #ccc;
+}
+
+.arrow {
+    transition: transform 0.3s;
+}
+
+.arrow.rotate {
+    transform: rotate(180deg);
+}
+
+/* 📱 Планшети */
+@media (max-width: 1024px) {
+    .faq-title {
+        font-size: 1.8rem;
+    }
+
+    .faq-question {
+        font-size: 1rem;
+    }
+
+    .faq-answer {
+        font-size: 0.9rem;
+    }
+
+    .faq-item {
+        padding: 18px;
+    }
+}
+
+/* 📱 Телефони */
+@media (max-width: 768px) {
+    .faq {
+        padding: 60px 16px;
+    }
+
+    .faq-title {
+        font-size: 1.6rem;
+    }
+
+    .faq-question {
+        font-size: 0.95rem;
+    }
+
+    .faq-answer {
+        font-size: 0.85rem;
+    }
+
+    .faq-item {
+        padding: 16px;
+    }
+}
+
+/* 📱 Маленькі телефони */
+@media (max-width: 380px) {
+    .faq {
+        padding: 40px 12px;
+    }
+
+    .faq-title {
+        font-size: 1.4rem;
+    }
+
+    .faq-question {
+        font-size: 0.9rem;
+    }
+
+    .faq-answer {
+        font-size: 0.8rem;
+    }
+
+    .faq-item {
+        padding: 14px;
+    }
+}
