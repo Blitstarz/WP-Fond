@@ -39,7 +39,7 @@ const Contact = () => {
         }
 
         try {
-            await fetch('http://localhost:5055/api/contact', {
+            await fetch('https://wp-server-x5zz.onrender.com/api/contact', {
                 method: 'POST',
                 body: data,
             });

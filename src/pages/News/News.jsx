@@ -10,7 +10,7 @@ const News = () => {
     const sliderRef = useRef(null);
 
     useEffect(() => {
-        fetch("/api/news?limit=12")
+        fetch("https://wp-server-x5zz.onrender.com/api/news?limit=12")
             .then((res) => res.json())
             .then((data) => setNews(data.items || []))
             .catch((err) => console.error("News error:", err));
