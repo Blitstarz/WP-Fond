@@ -7,21 +7,83 @@
 html, body {
   width: 100%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
-  background: #000;
-  color: white;
+  background: #ffffff;
+  color: #1a1a1a;
   font-family: 'Montserrat', "DejaVu Sans", Verdana, sans-serif;
 }
 
+html {
+  scroll-behavior: auto !important;
+  scroll-padding-top: 0;
+  overflow-anchor: none;
+}
+
+body {
+  scroll-behavior: auto;
+  scroll-top: 0;
+  overflow-anchor: none;
+}
+
+html:not(.smooth-scroll) * {
+  scroll-margin-top: 0 !important;
+  scroll-padding-top: 0 !important;
+}
+
+.smooth-scroll {
+  scroll-behavior: smooth !important;
+}
+
+html:not(.smooth-scroll) [id] {
+  scroll-margin-top: 0 !important;
+}
+
+.smooth-scroll [id] {
+  scroll-margin-top: 80px;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  pointer-events: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  min-height: 100vh;
+}
+
 section {
-  padding: 80px 60px;
+  padding: 80px 20px;
+}
+
+section:first-of-type {
+  padding-top: 120px;
 }
 
 @media (max-width: 1024px) {
   section {
     padding: 60px 40px;
+  }
+  
+  section:first-of-type {
+    padding-top: 100px;
   }
 }
 
@@ -29,10 +91,18 @@ section {
   section {
     padding: 40px 20px;
   }
+  
+  section:first-of-type {
+    padding-top: 80px;
+  }
 }
 
 @media (max-width: 380px) {
   section {
     padding: 32px 12px;
+  }
+  
+  section:first-of-type {
+    padding-top: 70px;
   }
 }

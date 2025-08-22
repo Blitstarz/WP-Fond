@@ -8,8 +8,9 @@ i18n
     .use(LanguageDetector)
     .use(initReactI18next)
     .init({
-        fallbackLng: 'pl',
-        supportedLngs: ['en', 'uk', 'pl'],
+        lng: 'uk',
+        fallbackLng: 'uk',
+        supportedLngs: ['uk', 'pl', 'en'],
         debug: false,
         interpolation: {
             escapeValue: false,
@@ -21,7 +22,7 @@ i18n
             useSuspense: true,
         },
         detection: {
-            order: ['navigator', 'localStorage', 'htmlTag'],
+            order: ['localStorage', 'navigator', 'htmlTag'],
             lookupLocalStorage: 'i18nextLng',
             caches: ['localStorage'],
         },
