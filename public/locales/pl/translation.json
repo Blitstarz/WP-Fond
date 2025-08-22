@@ -150,7 +150,7 @@
   },
   "contact": {
     "title": "Skontaktuj się z nami",
-    "subtitle": "Uzyskaj więcej informacji o naszym programie akceleracji.",
+    "subtitle": "Skontaktuj się z nami, aby uzyskać więcej informacji o naszym programie akceleracji.",
     "info": {
       "title": "Informacje kontaktowe",
       "email": "Email:",
@@ -158,13 +158,35 @@
       "address": "Adres:"
     },
     "form": {
-      "title": "Wyślij nam Wiadomość",
-      "name": "Twoje Imię",
-      "email": "Twój Email",
-      "message": "Twoja Wiadomość",
-      "submit": "Wyślij Wiadomość",
-      "attachFile": "Załącz Plik",
-      "submitting": "Wysyłanie..."
+      "title": "Wyślij nam wiadomość",
+      "name": "Pełne imię i nazwisko",
+      "phone": "Twój numer telefonu",
+      "email": "Twój email",
+      "message": "Twoja wiadomość",
+      "taxId": "PESEL",
+      "submit": "Wyślij wiadomość",
+      "attachFile": "Załącz plik",
+      "submitting": "Wysyłanie...",
+      "success": "Twoja wiadomość została wysłana pomyślnie!",
+      "error": "Błąd podczas wysyłania wiadomości. Spróbuj ponownie.",
+      "fileUpload": {
+        "title": "Załącz pliki",
+        "subtitle": "Przeciągnij i upuść pliki tutaj lub kliknij, aby przeglądać",
+        "formats": "Obsługiwane formaty: PDF, DOC, DOCX, JPG, PNG"
+      },
+      "validation": {
+        "nameRequired": "Imię jest wymagane",
+        "nameMinLength": "Imię musi mieć co najmniej 2 znaki",
+        "phoneRequired": "Numer telefonu jest wymagany",
+        "phoneMinLength": "Numer telefonu musi mieć co najmniej 7 znaków",
+        "phoneInvalid": "Proszę wprowadzić poprawny numer telefonu",
+        "emailRequired": "Email jest wymagany",
+        "emailInvalid": "Proszę wprowadzić poprawny adres email",
+        "messageRequired": "Wiadomość jest wymagana",
+        "messageMinLength": "Wiadomość musi mieć co najmniej 8 znaków",
+        "taxIdRequired": "PESEL jest wymagany",
+        "taxIdMinLength": "PESEL musi mieć co najmniej 5 znaków"
+      }
     }
   },
   "footer": {

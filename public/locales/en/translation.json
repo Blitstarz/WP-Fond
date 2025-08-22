@@ -159,12 +159,34 @@
     },
     "form": {
       "title": "Send us a Message",
-      "name": "Your Name",
+      "name": "Full name",
+      "phone": "Your Phone Number",
       "email": "Your Email",
       "message": "Your Message",
+      "taxId": "NIP",
       "submit": "Send Message",
       "attachFile": "Attach File",
-      "submitting": "Sending..."
+      "submitting": "Sending...",
+      "success": "Your message has been sent successfully!",
+      "error": "Error sending message. Please try again.",
+      "fileUpload": {
+        "title": "Attach Files",
+        "subtitle": "Drag & drop files here or click to browse",
+        "formats": "Supported formats: PDF, DOC, DOCX, JPG, PNG"
+      },
+      "validation": {
+        "nameRequired": "Name is required",
+        "nameMinLength": "Name must be at least 2 characters",
+        "phoneRequired": "Phone number is required",
+        "phoneMinLength": "Phone number must be at least 7 characters",
+        "phoneInvalid": "Please enter a valid phone number",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Please enter a valid email address",
+        "messageRequired": "Message is required",
+        "messageMinLength": "Message must be at least 8 characters",
+        "taxIdRequired": "Tax ID is required",
+        "taxIdMinLength": "Tax ID must be at least 5 characters"
+      }
     }
   },
   "footer": {
