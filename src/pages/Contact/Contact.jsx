@@ -127,23 +127,23 @@ const Contact = () => {
                     <h2 className="contact-title">{t('contact.title')}</h2>
                     <p className="contact-subtitle">{t('contact.subtitle')}</p>
                     <div className="contact-content">
-                        <div className="contact-info">
-                            <h3>{t('contact.info.title')}</h3>
-                            <div className="contact-details">
-                                <div className="contact-item-new">
-                                    <strong>{t('contact.info.email')}</strong>
-                                    <a href="mailto:info@wp-fond.pl">info@wp-fond.pl</a>
-                                </div>
-                                <div className="contact-item-new">
-                                    <strong>{t('contact.info.phone')}</strong>
-                                    <a href="tel:+48123456789">+48 12 345 67 89</a>
-                                </div>
-                                <div className="contact-item-new">
-                                    <strong>{t('contact.info.address')}</strong>
-                                    <span>Warszawa, Polska</span>
-                                </div>
-                            </div>
-                        </div>
+                        {/*<div className="contact-info">*/}
+                        {/*    <h3>{t('contact.info.title')}</h3>*/}
+                        {/*    <div className="contact-details">*/}
+                        {/*        <div className="contact-item-new">*/}
+                        {/*            <strong>{t('contact.info.email')}</strong>*/}
+                        {/*            <a href="mailto:info@wp-fond.pl">info@wp-fond.pl</a>*/}
+                        {/*        </div>*/}
+                        {/*        <div className="contact-item-new">*/}
+                        {/*            <strong>{t('contact.info.phone')}</strong>*/}
+                        {/*            <a href="tel:+48123456789">+48 12 345 67 89</a>*/}
+                        {/*        </div>*/}
+                        {/*        <div className="contact-item-new">*/}
+                        {/*            <strong>{t('contact.info.address')}</strong>*/}
+                        {/*            <span>Warszawa, Polska</span>*/}
+                        {/*        </div>*/}
+                        {/*    </div>*/}
+                        {/*</div>*/}
 
                         <div className="contact-form">
                             <h3>{t('contact.form.title')}</h3>
